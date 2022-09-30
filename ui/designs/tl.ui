@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="table1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>925</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>640</width>
+      <height>0</height>
+     </size>
+    </property>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Kid</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Country</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Timestamp</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Date of Expiry</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QComboBox" name="combo1">
+    <property name="geometry">
+     <rect>
+      <x>665</x>
+      <y>150</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>68</width>
+      <height>0</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AUTH</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CSCA</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DSC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UPLOAD</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="combo2">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>150</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>120</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>805</x>
+      <y>125</y>
+      <width>45</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Country</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>125</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>    Type</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>950</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCerts">
+    <property name="geometry">
+     <rect>
+      <x>267</x>
+      <y>126</y>
+      <width>160</width>
+      <height>126</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionTl"/>
+    <addaction name="actionCert"/>
+    <addaction name="actionRule"/>
+    <addaction name="actionRl"/>
+   </widget>
+   <addaction name="menuCerts"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionTl">
+   <property name="text">
+    <string>Trustlist</string>
+   </property>
+  </action>
+  <action name="actionCert">
+   <property name="text">
+    <string>Certificates</string>
+   </property>
+  </action>
+  <action name="actionRule">
+   <property name="text">
+    <string>Rules</string>
+   </property>
+  </action>
+  <action name="actionRl">
+   <property name="text">
+    <string>Revocation</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
