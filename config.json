@@ -1,0 +1,9 @@
+{
+    "Country_Name": "[E.g. DE]",
+    "Gateway_Url": "https://test-dgcg-ws.tech.ec.europa.eu",
+    "Auth_Cert": "cert/auth.pem",
+    "Auth_Key": "cert/key_auth.pem",
+    "Main_Location": "C:/Users/[Directory containing config.json]",
+    "Last_Updated_Tl": "2020-10-17T11:44:24+02:00",
+    "Last_Updated_Rl": "2020-10-17T11:44:24+02:00"
+}
